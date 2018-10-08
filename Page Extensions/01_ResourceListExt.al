@@ -1,6 +1,6 @@
 pageextension 50101 "CSD ResourceListExt" extends "Resource List"
+// #NINI#Bla bla
 {
-    // #NINI#Bla bla
     layout
     {
         modify(Type)
@@ -9,17 +9,17 @@ pageextension 50101 "CSD ResourceListExt" extends "Resource List"
         }
         addafter(Type)
         {
-            field("CSD Resource Type";"CSD Resource Type")
+            field("CSD Resource Type"; "CSD Resource Type")
             {
 
             }
-            field("CSD Maximum Participants";"CSD Maximum Participants")
+            field("CSD Maximum Participants"; "CSD Maximum Participants")
             {
                 Visible = ShowMaxField;
             }
         }
-    }    
-     
+    }
+
     trigger OnOpenPage()
 
     begin
